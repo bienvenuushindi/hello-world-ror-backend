@@ -33,7 +33,7 @@
 
 # 📖 react rails as one app with Webpack <a name="about-project"></a>
 
-> This project aims to implement a Frontend  consumer of a Ruby on Rails back-end  API.
+> This project aims to implement a Ruby on Rails backend  API serving a React Frontend App.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -41,14 +41,17 @@
 
 This project was built using.
 <details>
-  <summary>Client</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href=https://www.w3schools.com/html/">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
+</details>
 
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
 </details>
 
 
@@ -58,7 +61,7 @@ This project was built using.
 
 >  key features of the application.
 
-- **Consume a Ruby on Rails backend API.**
+- ** Serve an API to a React Frontend App.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +84,8 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-- Node installed
+- Ruby installed
+- Postgresql installed
 - git installed [In case you want to clone this repo using your terminal]
 - Any IDE or text editor that supports Ruby
 ### Setup
@@ -90,7 +94,7 @@ Clone this repository to your desired folder:
 #### 1. Clone this repository or download the Zip folder:"
 
 ```bash command
-$ git clone https://github.com/bienvenuushindi/hello-world-react-front-end.git
+$ git clone https://github.com/bienvenuushindi/hello-world-ror-backend.git
 ```
 #### 2. Navigate to the location of the folder in your machine:
 ```bash command
@@ -112,7 +116,7 @@ npm install
 ```
 #### 6 Finally you can run the server:
 ```bash command
-./bin/dev
+rails s
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
